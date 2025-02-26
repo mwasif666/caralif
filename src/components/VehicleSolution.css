@@ -1,0 +1,26 @@
+.service-card-custom {
+  border: 2px solid red;
+  border-radius: 30px !important;
+  padding-left: 35px !important;
+}
+.service-card-custom .service-card_icon {
+  margin-bottom: 20px !important;
+}
+.title-area2 {
+  margin-top: 130px;
+}
+.title-area2 .color-grey {
+  color: gray;
+}
+.hidden-date-picker {
+  position: absolute;
+  opacity: 0; /* Hidden date picker */
+  width: 100%;
+  cursor: pointer;
+}
+.hidden-time-picker {
+  position: absolute;
+  opacity: 0; /* Hidden time picker */
+  width: 100%;
+  cursor: pointer;
+}
