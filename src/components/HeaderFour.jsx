@@ -48,7 +48,7 @@ const HeaderFour = () => {
   };
   return (
     <header className="nav-header header-layout3">
-      <div className="header-top">
+      {/* <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
@@ -89,7 +89,7 @@ const HeaderFour = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
@@ -98,16 +98,16 @@ const HeaderFour = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo-white.png" alt="Fixturbo" />
                   </Link>
                 </div>
               </div>
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="menu-item-has-children">
-                      <Link to="#">Home</Link>
-                      <ul className="sub-menu">
+                    <li className="">
+                      <Link to="/home-2">Home</Link>
+                      {/* <ul className="sub-menu">
                         <li>
                           <NavLink
                             to="/"
@@ -168,19 +168,19 @@ const HeaderFour = () => {
                             Home 06
                           </NavLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li>
-                      <NavLink
-                        to="/about"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        About Us
-                      </NavLink>
+                    <li className="">
+                      <Link to="/home-2">Expert Call</Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="">
+                      <Link to="/home-2">Car Valuation</Link>
+                    </li>
+                    <li className="">
+                      <Link to="/about">About Us</Link>
+                    </li>
+
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Services</Link>
                       <ul className="sub-menu">
                         <li>
@@ -339,7 +339,7 @@ const HeaderFour = () => {
                       >
                         Contact
                       </NavLink>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
                 <div className="navbar-right d-inline-flex d-lg-none">
@@ -352,13 +352,13 @@ const HeaderFour = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-auto d-xl-block d-none">
+              {/* <div className="col-auto d-xl-block d-none">
                 <div className="header-button">
                   <Link to="/about" className="btn style2">
                     Get A Quote <i className="fas fa-arrow-right ms-2" />
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

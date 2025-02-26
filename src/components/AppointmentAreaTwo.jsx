@@ -14,7 +14,7 @@ const AppointmentAreaTwo = () => {
   return (
     <div
       className="appointment-area-2 bg-smoke overflow-hidden"
-      style={{ backgroundImage: "url(assets/img/bg/appointment-bg2-1.png)" }}
+      // style={{ backgroundImage: "url(assets/img/bg/appointment-bg2-1.png)" }}
     >
       <div className="container">
         <div className="row gx-0">
@@ -22,7 +22,7 @@ const AppointmentAreaTwo = () => {
             <div className="space">
               <div className="title-area2">
                 <div className="title-area">
-                  <span className="sub-title">Send a request</span>
+                  {/* <span className="sub-title">Send a request</span> */}
                   <h3 className="sec-title">
                     Talk to our experts for Vehicle advice <br /> for as low as
                     $15 for 30 minutes
@@ -38,7 +38,7 @@ const AppointmentAreaTwo = () => {
             <div className="space">
               <div className="appointment-form-wrap bg-white">
                 <div className="title-area">
-                  <span className="sub-title">Send a request</span>
+                  {/* <span className="sub-title">Send a request</span> */}
                   <h2 className="sec-title">Talk to an expert</h2>
                 </div>
                 <form

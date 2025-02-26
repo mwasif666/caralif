@@ -24,3 +24,10 @@
   width: 100%;
   cursor: pointer;
 }
+.header-logo img {
+  width: 150px;
+}
+/* form */
+.appointment-form-wrap {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

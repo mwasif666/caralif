@@ -48,7 +48,7 @@ const HeaderTwo = () => {
   };
   return (
     <header className="nav-header header-layout2">
-      <div className="header-top">
+      {/* <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
@@ -84,7 +84,7 @@ const HeaderTwo = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
@@ -93,7 +93,7 @@ const HeaderTwo = () => {
               <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo-white.png" alt="Fixturbo" />
                   </Link>
                 </div>
               </div>

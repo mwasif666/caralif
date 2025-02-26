@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import HeaderTwo from "../components/HeaderTwo";
 import HeroTwo from "../components/HeroTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
 import AboutTwo from "../components/AboutTwo";
@@ -18,6 +17,7 @@ import FooterAreaTwo from "../components/FooterAreaTwo";
 import Preloader from "../helper/Preloader";
 import VehicleSolutions from "../components/vehicleSolution";
 import MarqueeOne from "../components/MarqueeOne";
+import HeaderFour from "../components/HeaderFour";
 
 const HomePageTwo = () => {
   let [active, setActive] = useState(true);
@@ -32,7 +32,7 @@ const HomePageTwo = () => {
       {active === true && <Preloader />}
 
       {/* Header Two */}
-      <HeaderTwo />
+      <HeaderFour />
 
       {/* Hero Two */}
       <HeroTwo />
